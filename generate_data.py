@@ -51,7 +51,7 @@ def Im2Patch(img, win, stride=1):  # Based on code written by Shuhang Gu (cssgu@
 
     return Y.reshape([win, win, 1, TotalPatNum])
 
-data_path = '../denoising_data/TrainSet/Train400'
+data_path = 'Train400'
 out_dir = 'data/'
 batchSize = 128
 patchsize = 40
