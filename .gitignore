@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+data/
+model_DnCNN_sigma=15/
+model_DnCNN_sigma=25/
+model_DnCNN_sigma=50/
+results_DnCNN_sigma=15/
+results_DnCNN_sigma=25/
+results_DnCNN_sigma=50/
