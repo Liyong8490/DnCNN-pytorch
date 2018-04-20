@@ -2,13 +2,7 @@
 [DnCNN](http://www4.comp.polyu.edu.hk/~cslzhang/paper/DnCNN.pdf) implement based on pytorch
 # [Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://ieeexplore.ieee.org/document/7839189/)
 # To run this code
-- Python3 with dependencies:
-		scipy
-		numpy
-		pytorch
-		scikit-image
-		PIL
-		h5py
+- Python3 with dependencies: scipy, numpy, scikit-image,, PIL, h5py, pytorch>=0.4
 
 # Generating training data
 - 'generate_data.py'. You may need to modify the path to trainning datasets. According to the [MatConvNet code](https://github.com/cszn/DnCNN) offered by authors, there are some blank(zero) data in the generated training dataset.
